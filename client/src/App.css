@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: serif; */
+}
+
+
+.container{ 
+    width: 100vw;
+    height: 43px;
+    border: 1px solid rgb(170, 170, 170);
+    background-color: #b9b9e2;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    left: 9px;
+    width: 33px;
+}
+
+#hambgr{
+    position: absolute;
+    right: 18px;
+    top: 10px;
+    cursor: pointer;
+    width: 23px;
+}
+
+#img{
+    width: 23px;
+    position: absolute;
+    right: 19px;
+    cursor: pointer;
+    top: 11px;
+}
+
+table {
+    border: 1px solid #9898d9;
+    border-collapse: collapse;
+}    
+
+table{
+    position: absolute;
+    right: 21px;
+    top: 44px;
+    background-color: #cacaf0;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: monospace;
+    z-index: 2;
+}
+
+tr{
+    display: block;
+    padding: 4px 15px;
+    border: 1px solid #9898d9;
+    cursor: pointer;
+}
+
+tr:hover{
+    color: rgb(143, 228, 87);
+}
+
+h1:hover{
+    color: rgb(143, 228, 87);
+}
+
+ /* main ------------------>    */
+.mainContainer{
+    width: 100vw;
+    height: 90.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: aliceblue;
+}
+
+.failnotify{
+    width: 100vw;
+    height: 16px;
+    /* border: 2px solid #a59191; */
+    position: absolute;
+    top: 23px;
+    text-align: center;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: red;
+}
+
+.successnotify{
+    width: 100vw;
+    height: 16px;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: cursive;
+    color: rgb(40 135 48);
+    font-weight: bold;
+}
+
+.content{
+    width: 30.5vw;
+    height: 76vh;
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 12px;
+    background-color: #d1d1eb;
+    position: relative;
+}
+
+.box{
+    width: 22.5vw;
+    height: 36px;
+    border: 1px solid rgb(8, 8, 8);
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 6px;
+    padding-right: 33px;
+    font-family: math;
+}
+
+
+
+#button{
+    height: 37px;
+    width: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 9px;
+    border: 1px solid black;
+    position: absolute;
+    right: 4px;
+    top: 6px;
+    background-color: dimgray;
+    color: white;
+}
+
+#button:hover{
+    color: rgb(143, 228, 87);
+}
+
+
+/* todo --------------->   */
+
+.todo{
+    width: 30.4vw;
+    height: 66.5vh;
+    border: 1px solid black;
+    position: absolute;
+    top: 54px;
+    border-radius: 8px;
+    padding-top: 6px;
+    overflow: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(131, 182, 240); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6e7bf0; 
+  }
+
+/* data ----------------> */
+
+.datacontainer{
+    border: 1px solid #9898d9;
+    height: 37px;
+    background-color: rgb(167 167 219);
+    font-size: 23px;
+    padding-left: 9px;
+    padding-top: 9px;
+    padding-right: 66px;
+    position: relative;
+    font-family: math;
+    overflow: hidden;
+}
+
+.btn{
+    width: 39px;
+    height: 28px;
+    color: black;
+    background-color: #e98f8f;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    right: 4px;
+    border-radius: 7px;
+}
+
+.btn:hover{
+    color: rgb(143, 228, 87);
+}
+
+#edit{
+    width: 27px;
+    position: absolute;
+    right: 35px;
+    top: 12px;
+    cursor: pointer;
+}
+
+#edit:hover{
+    width: 29px;
+}
+
+#edit:active{
+    width: 1px;
+}
+
+
+span:hover{
+    font-size: 23.5px;
+}
+
+#delete{
+    width: 30px;
+    position: absolute;
+    right: 2px;
+    top: 8px;
+    cursor: pointer;
+}
+
+#delete:hover{
+    width: 33.5px;
+}
+
+#delete:active{
+    width: 1px;
+}
+
+#cancel{
+    position: absolute;
+    width: 22px;
+    z-index: 1;
+    right: 66px;
+    top: 14px;
+}
+
+#lucide1{
+    position: absolute;
+    right: 4px;
+    top: 12px;
+}
+
+#lucide2{
+    position: absolute;
+    right: 34px;
+    top: 13px;
+    width: 23px;
+}
