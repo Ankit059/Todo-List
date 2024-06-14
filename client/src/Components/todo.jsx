@@ -1,10 +1,11 @@
 import React from 'react';
 import { Data } from './Data';
 
-export const Todo = () => {
+export const Todo = ({func}) => {
   return (
     <>
-    <Data/>
+    {/* {func} */}
+    <Data func2={func} />
     </>
   )
 }
